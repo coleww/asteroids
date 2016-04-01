@@ -3,6 +3,19 @@ AVASTAROIDS
 
 a twitter bot thats let u fight the demons and frigging win because it will continuously generate new games until that happens cuz it is just such a nice bot
 
+-------------------------
+
+# DEVLOPMENT
+
+- [install cairo](https://github.com/Automattic/node-canvas/wiki)
+- `git clone` or what have you and a lil `cd` and then an `npm install`
+- put some API keys for a test account in `make_a_sweet_gif/config.js`
+- `redis-server` (also: install redis-server)
+- when a follower tweets @ the bot, it should push them onto the redis queue
+- `node make_a_sweet_gif/index.js` should do the magic (it will take a few seconds)
+
+-------------------------
+
 TODO:
 - make it work in node
 - make it make gifs

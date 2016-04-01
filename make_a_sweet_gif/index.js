@@ -1,3 +1,4 @@
+var popUser = require('./pop_user')
 var makeGif = require('./make_gif')
 var getAvatar = require('./get_avatar')
 var replyToTweet = require('./reply_to_tweet')
