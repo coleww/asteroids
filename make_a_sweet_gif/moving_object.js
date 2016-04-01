@@ -1,4 +1,4 @@
-var config = require('./config')
+var config = require('../config')
 var MovingObject = function(pos, vel, radius, color){
   this.pos = pos;
   this.vel = vel;

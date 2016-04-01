@@ -1,4 +1,4 @@
-var config = require('./config')
+var config = require('../config')
 var Asteroid = require('./asteroid')
 var Ship = require('./ship')
 var

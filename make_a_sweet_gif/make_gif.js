@@ -1,4 +1,4 @@
-var config = require('./config')
+var config = require('../config')
 var Canvas = require('canvas')
 var Image = Canvas.Image
 var canvas = new Canvas(config.DIM_X, config.DIM_Y)

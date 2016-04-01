@@ -7,6 +7,11 @@ var config = require('./config')
 var T = new Twit(config.twitter)
 var stream = T.stream('user')
 
+
+function tweetIsAMentionFromAFollower (t) {
+
+}
+
 stream.on('tweet', function (t) {
-  client.rpush('asteroids', JSON.stringify(t.user), redis.print)
+  if (tweetIsAMentionFromAFollower(t)) client.rpush('asteroids', JSON.stringify(t.user), redis.print)
 })
