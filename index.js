@@ -9,7 +9,9 @@ var stream = T.stream('user')
 
 
 function tweetIsAMentionFromAFollower (t) {
-
+  t.entities.user_mentions.some(function (u) {
+    return u.screen_name = config.botName
+  })
 }
 
 stream.on('tweet', function (t) {

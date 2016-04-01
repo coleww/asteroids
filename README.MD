@@ -13,6 +13,7 @@ a twitter bot thats let u fight the demons and frigging win because it will cont
 - `redis-server` (also: install redis-server)
 - when a follower tweets @ the bot, it should push them onto the redis queue
 - `node make_a_sweet_gif/index.js` should do the magic (it will take a few seconds)
+- you can run `node qpf.js` to make the bot auto-follow back anyone that follows it. 
 
 -------------------------
 
