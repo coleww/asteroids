@@ -8,6 +8,5 @@ var T = new Twit(config.twitter)
 var stream = T.stream('user')
 
 stream.on('tweet', function (t) {
-  console.log('processing', t.user.screen_name, t.text)
   client.rpush('asteroids', JSON.stringify(t.user), redis.print)
 })
