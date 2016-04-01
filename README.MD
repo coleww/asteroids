@@ -23,8 +23,9 @@ TODO:
 - copy paste streaming redis system from wowwwwbeautiful (p sure u get the avatar URL when streaming events occur)
 - *some sort of callback mess to grab users avatar, make a gif, and reply* 
 - get more objects for the asteroids/"bad things". maybe word art like STRESS, ANXIETY, HATE, etc. also demons,  businessmen, etc.
-- maybe let people @ the bot images for the background? NOT THE ASTEROIDS THO. 
-
+- maybe let people @ the bot images for the background? NOT THE ASTEROIDS THO.  
+- HOLY SHIT make backgrounds work at launch, that way if people tweet like "HEY CHECK OUT WHAT THIS DID" it will do it again :o
+- oh gosh, could it draw on top of existing gifs? :o just crack open the frames and step() over them? 
 --------------------------------
 
 This code was originally written w/ [Jack Noble](https://github.com/jacknoble/asteroids) at app academy, 
