@@ -1,0 +1,28 @@
+{
+  "name": "avastaroids",
+  "version": "1.0.0",
+  "description": "a twitter bot that lets u face the demons",
+  "main": "asteroid.js",
+  "dependencies": {
+    "canvas": "^1.3.12",
+    "gifencoder": "^1.0.6",
+    "twit": "^2.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coleww/asteroids.git"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "Cole Willsea <coleww@gmail.com> (http://colewillsea.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coleww/asteroids/issues"
+  },
+  "homepage": "https://github.com/coleww/asteroids#readme"
+}
