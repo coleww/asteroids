@@ -1,4 +1,5 @@
 var MovingObject = require('./moving_object')
+var Bullet = require('./bullet')
 var Image = require('canvas').Image
 var Ship = function(pos,vel){
   this.maxSpeed = 3;
@@ -28,7 +29,7 @@ Ship.prototype.fireBullet = function(){
   var speed = Math.sqrt(Math.pow(this.vel[0], 2) + Math.pow(this.vel[1], 2))
   var direction = [this.vel[0] / speed, this.vel[1] / speed]
   var bulletVelocity = [direction[0] * 10, direction[1] * 10]
-  return new asteroids.Bullet([this.pos[0], this.pos[1]], bulletVelocity);
+  return new Bullet([this.pos[0], this.pos[1]], bulletVelocity);
 }
 
 Ship.prototype.draw = function(canvas){

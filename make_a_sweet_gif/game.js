@@ -1,5 +1,7 @@
 var config = require('./config')
-
+var Asteroid = require('./asteroid')
+var Ship = require('./ship')
+var
 var Game = asteroids.Game = function(canvas){
   this.canvas = canvas.getContext("2d");
   this.asteroids = [];
@@ -9,13 +11,13 @@ var Game = asteroids.Game = function(canvas){
   // TODO: set canvas width/height here
   // config.DIM_X = canvas.width;
   // config.DIM_Y = canvas.height;
-  this.ship = new asteroids.Ship([config.DIM_X/2, config.DIM_Y/2], [0,0])
+  this.ship = new Ship([config.DIM_X/2, config.DIM_Y/2], [0,0])
   this.makeAsteroids();
 }
 
 Game.prototype.makeAsteroids = function(){
   for (var i = this.asteroidCount; i > 0; i--){
-    this.asteroids.push(asteroids.Asteroid.randomAsteroid(config.DIM_X, config.DIM_Y))
+    this.asteroids.push(Asteroid.randomAsteroid(config.DIM_X, config.DIM_Y))
   }
 }
 
