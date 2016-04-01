@@ -1,8 +1,8 @@
 var redis = require('redis')
 var client = redis.createClient()
 var config = require('./config')
-var twitConfig = config.twitter
-var replyInterval = config.replyInterval
+var twitConfig = config.TWITTER
+var replyInterval = config.REPLY_INTERVAL
 var Twit = require('twit')
 var T = new Twit(twitConfig)
 
