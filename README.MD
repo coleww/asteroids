@@ -26,6 +26,7 @@ TODO:
 - maybe let people @ the bot images for the background? NOT THE ASTEROIDS THO.  
 - HOLY SHIT make backgrounds work at launch, that way if people tweet like "HEY CHECK OUT WHAT THIS DID" it will do it again :o
 - oh gosh, could it draw on top of existing gifs? :o just crack open the frames and step() over them? 
+- give the user options for what it can battle?
 --------------------------------
 
 This code was originally written w/ [Jack Noble](https://github.com/jacknoble/asteroids) at app academy, 
